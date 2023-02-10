@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.2.6 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -526,20 +526,20 @@ video {
   position: relative;
 }
 
-.top-20 {
-  top: 5rem;
-}
-
-.left-\[50\%\] {
-  left: 50%;
+.bottom-3 {
+  bottom: 0.75rem;
 }
 
 .bottom-\[80px\] {
   bottom: 80px;
 }
 
-.bottom-3 {
-  bottom: 0.75rem;
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.top-20 {
+  top: 5rem;
 }
 
 .m-auto {
@@ -558,6 +558,14 @@ video {
   margin-top: 0.5rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -566,36 +574,48 @@ video {
   display: none;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-10 {
   height: 2.5rem;
-}
-
-.h-7 {
-  height: 1.75rem;
 }
 
 .h-6 {
   height: 1.5rem;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
 .w-32 {
   width: 8rem;
 }
 
-.w-96 {
-  width: 24rem;
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-7 {
   width: 1.75rem;
 }
 
-.w-6 {
-  width: 1.5rem;
+.w-96 {
+  width: 24rem;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .translate-x-\[-50\%\] {
@@ -625,10 +645,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .items-center {
@@ -673,33 +689,122 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/03e533bf-8b1d-463f-9813-9a597aafb280\/bvlatuR\/std\/4096x2560\/M3-Homepage-Desktop-LHD\'\)\] {
-  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0\/bvlatuR\/std\/2880x2400\/Desktop-ModelY\?quality\=70\'\)\] {
-  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70');
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/03e533bf-8b1d-463f-9813-9a597aafb280\/bvlatuR\/std\/4096x2560\/M3-Homepage-Desktop-LHD\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/17ecbd59-0e37-4add-8aca-f905d12c02e4\/bvlatuR\/std\/2880x1800\/Homepage-Model-X-Desktop-LHD\'\)\] {
   background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/17ecbd59-0e37-4add-8aca-f905d12c02e4/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD');
 }
 
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0\/bvlatuR\/std\/2880x2400\/Desktop-ModelY\?quality\=70\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70');
+}
+
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/dd739764-bcaa-4263-9488-8c73bc9fb046\/bvlatuR\/std\/0x0\/dd739764-bcaa-4263-9488-8c73bc9fb046\'\)\] {
   background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/0x0/dd739764-bcaa-4263-9488-8c73bc9fb046');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/92cbede0-6d73-4753-a640-7d2acbcd9f3f\/bvlatuR\/std\/1927x4096\/Homepage-Model-3-LHD-Mobile\?quality\=auto-medium\&amp\;format\=auto\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/92cbede0-6d73-4753-a640-7d2acbcd9f3f/bvlatuR/std/1927x4096/Homepage-Model-3-LHD-Mobile?quality=auto-medium&amp;format=auto');
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/92cbede0-6d73-4753-a640-7d2acbcd9f3f\/bvlatuR\/std\/1927x4096\/Homepage-Model-3-LHD-Mobile\?\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/92cbede0-6d73-4753-a640-7d2acbcd9f3f/bvlatuR/std/1927x4096/Homepage-Model-3-LHD-Mobile?');
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/92cbede0-6d73-4753-a640-7d2acbcd9f3f\/bvlatuR\/std\/1927x4096\/Homepage-Model-3-LHD-Mobile\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/92cbede0-6d73-4753-a640-7d2acbcd9f3f/bvlatuR/std/1927x4096/Homepage-Model-3-LHD-Mobile');
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/c485b2b4-d334-4a8f-87e3-5755103a367c\/bvlatuR\/std\/800x2100\/Homepage-ModelY-LHD-Mobile\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/c485b2b4-d334-4a8f-87e3-5755103a367c/bvlatuR/std/800x2100/Homepage-ModelY-LHD-Mobile');
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/bcb3f60f-170c-40d8-b4ff-b09628723cfc\/bvlatuR\/std\/750x1624\/Homepage-Model-S-LHD-Mobile\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/bcb3f60f-170c-40d8-b4ff-b09628723cfc/bvlatuR/std/750x1624/Homepage-Model-S-LHD-Mobile');
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/05a76324-947e-453b-a628-8b2d759756fa\/bvlatuR\/std\/2880x1800\/Homepage-Model-X-Desktop-LHD\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/05a76324-947e-453b-a628-8b2d759756fa/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD');
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/09f6a9e7-bdef-4d92-8c1e-2bcc3ddb7fee\/bvlatuR\/std\/800x2100\/Homepage-Model-X-LHD-Mobile\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/09f6a9e7-bdef-4d92-8c1e-2bcc3ddb7fee/bvlatuR/std/800x2100/Homepage-Model-X-LHD-Mobile');
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/da02ce3e-3ede-4fa4-8fcb-e8d5d6681cfb\/bvlatuR\/std\/600x1576\/Homepage-SolarPanels-Mobile\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/da02ce3e-3ede-4fa4-8fcb-e8d5d6681cfb/bvlatuR/std/600x1576/Homepage-SolarPanels-Mobile');
+}
+
+.bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/3f6f20d2-ad05-41b7-b181-9fb6f01af119\/bvlatuR\/std\/800x2100\/Homepage-SolarRoof-Mobile\'\)\] {
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/3f6f20d2-ad05-41b7-b181-9fb6f01af119/bvlatuR/std/800x2100/Homepage-SolarRoof-Mobile');
 }
 
 .bg-cover {
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-center {
   background-position: center;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .px-3 {
@@ -707,16 +812,37 @@ video {
   padding-right: 0.75rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pt-1 {
   padding-top: 0.25rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .text-sm {
@@ -724,20 +850,16 @@ video {
   line-height: 1.25rem;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
-}
-
-.text-\[16px\] {
-  font-size: 16px;
-}
-
-.text-\[12px\] {
-  font-size: 12px;
+.text-\[20px\] {
+  font-size: 20px;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -749,9 +871,9 @@ video {
   color: rgb(92 93 97 / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-gray-500 {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .text-gray-900 {
@@ -759,9 +881,9 @@ video {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-.text-gray-500 {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -795,6 +917,40 @@ video {
   text-decoration-thickness: 2px;
 }
 
+@media (min-width: 640px) {
+  .sm\:inline {
+    display: inline;
+  }
+
+  .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/03e533bf-8b1d-463f-9813-9a597aafb280\/bvlatuR\/std\/4096x2560\/M3-Homepage-Desktop-LHD\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
+  }
+
+  .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0\/bvlatuR\/std\/2880x2400\/Desktop-ModelY\?quality\=70\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70');
+  }
+
+  .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/17ecbd59-0e37-4add-8aca-f905d12c02e4\/bvlatuR\/std\/2880x1800\/Homepage-Model-X-Desktop-LHD\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/17ecbd59-0e37-4add-8aca-f905d12c02e4/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD');
+  }
+
+  .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/e57227be-7840-4ea7-b46a-11ab25e76039\/bvlatuR\/std\/2880x1800\/Homepage-Model-S-Desktop-LHD\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/e57227be-7840-4ea7-b46a-11ab25e76039/bvlatuR/std/2880x1800/Homepage-Model-S-Desktop-LHD');
+  }
+
+  .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/05a76324-947e-453b-a628-8b2d759756fa\/bvlatuR\/std\/2880x1800\/Homepage-Model-X-Desktop-LHD\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/05a76324-947e-453b-a628-8b2d759756fa/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD');
+  }
+
+  .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/16b04537-a4be-4bf9-8637-86862a858da8\/bvlatuR\/std\/2880x1800\/_25-HP-SolarPanels-D\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D');
+  }
+
+  .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/4a41ec0e-7316-46a8-8ce9-e2f195ba644d\/bvlatuR\/std\/2880x1800\/Homepage-SolarRoof-Desktop-Global\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/4a41ec0e-7316-46a8-8ce9-e2f195ba644d/bvlatuR/std/2880x1800/Homepage-SolarRoof-Desktop-Global');
+  }
+}
+
 @media (min-width: 768px) {
   .md\:mt-0 {
     margin-top: 0px;
@@ -817,10 +973,38 @@ video {
     margin-right: calc(1rem * var(--tw-space-x-reverse));
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
+
+  .md\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/03e533bf-8b1d-463f-9813-9a597aafb280\/bvlatuR\/std\/4096x2560\/M3-Homepage-Desktop-LHD\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
+  }
+
+  .md\:bg-cover {
+    background-size: cover;
+  }
+
+  .md\:bg-center {
+    background-position: center;
+  }
 }
 
 @media (min-width: 1024px) {
   .lg\:inline {
     display: inline;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
+  .lg\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/03e533bf-8b1d-463f-9813-9a597aafb280\/bvlatuR\/std\/4096x2560\/M3-Homepage-Desktop-LHD\'\)\] {
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
+  }
+
+  .lg\:bg-cover {
+    background-size: cover;
+  }
+
+  .lg\:bg-center {
+    background-position: center;
   }
 }
