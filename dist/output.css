@@ -22,7 +22,7 @@
 
 ::before,
 ::after {
-  --tw-content: "";
+  --tw-content: '';
 }
 
 /*
@@ -41,11 +41,9 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-  tab-size: 4;
+     tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -84,7 +82,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /*
@@ -128,8 +126,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -220,9 +217,9 @@ select {
 */
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
@@ -269,7 +266,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type="search"] {
+[type='search'] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -354,8 +351,7 @@ textarea {
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder,
-textarea::-moz-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -423,9 +419,7 @@ video {
   display: none;
 }
 
-*,
-::before,
-::after {
+*, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -435,16 +429,16 @@ video {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x: ;
-  --tw-pan-y: ;
-  --tw-pinch-zoom: ;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal: ;
-  --tw-slashed-zero: ;
-  --tw-numeric-figure: ;
-  --tw-numeric-spacing: ;
-  --tw-numeric-fraction: ;
-  --tw-ring-inset: ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -452,24 +446,24 @@ video {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur: ;
-  --tw-brightness: ;
-  --tw-contrast: ;
-  --tw-grayscale: ;
-  --tw-hue-rotate: ;
-  --tw-invert: ;
-  --tw-saturate: ;
-  --tw-sepia: ;
-  --tw-drop-shadow: ;
-  --tw-backdrop-blur: ;
-  --tw-backdrop-brightness: ;
-  --tw-backdrop-contrast: ;
-  --tw-backdrop-grayscale: ;
-  --tw-backdrop-hue-rotate: ;
-  --tw-backdrop-invert: ;
-  --tw-backdrop-opacity: ;
-  --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia: ;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
 }
 
 ::backdrop {
@@ -482,16 +476,16 @@ video {
   --tw-skew-y: 0;
   --tw-scale-x: 1;
   --tw-scale-y: 1;
-  --tw-pan-x: ;
-  --tw-pan-y: ;
-  --tw-pinch-zoom: ;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal: ;
-  --tw-slashed-zero: ;
-  --tw-numeric-figure: ;
-  --tw-numeric-spacing: ;
-  --tw-numeric-fraction: ;
-  --tw-ring-inset: ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgb(59 130 246 / 0.5);
@@ -499,24 +493,24 @@ video {
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur: ;
-  --tw-brightness: ;
-  --tw-contrast: ;
-  --tw-grayscale: ;
-  --tw-hue-rotate: ;
-  --tw-invert: ;
-  --tw-saturate: ;
-  --tw-sepia: ;
-  --tw-drop-shadow: ;
-  --tw-backdrop-blur: ;
-  --tw-backdrop-brightness: ;
-  --tw-backdrop-contrast: ;
-  --tw-backdrop-grayscale: ;
-  --tw-backdrop-hue-rotate: ;
-  --tw-backdrop-invert: ;
-  --tw-backdrop-opacity: ;
-  --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia: ;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
 }
 
 .link {
@@ -626,21 +620,18 @@ video {
 
 .translate-x-\[-50\%\] {
   --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes bounce {
-  0%,
-  100% {
+  0%, 100% {
     transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
   }
 
   50% {
     transform: none;
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
   }
 }
 
@@ -744,59 +735,59 @@ video {
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/03e533bf-8b1d-463f-9813-9a597aafb280\/bvlatuR\/std\/4096x2560\/M3-Homepage-Desktop-LHD\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/17ecbd59-0e37-4add-8aca-f905d12c02e4\/bvlatuR\/std\/2880x1800\/Homepage-Model-X-Desktop-LHD\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/17ecbd59-0e37-4add-8aca-f905d12c02e4/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/17ecbd59-0e37-4add-8aca-f905d12c02e4/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0\/bvlatuR\/std\/2880x2400\/Desktop-ModelY\?quality\=70\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/dd739764-bcaa-4263-9488-8c73bc9fb046\/bvlatuR\/std\/0x0\/dd739764-bcaa-4263-9488-8c73bc9fb046\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/0x0/dd739764-bcaa-4263-9488-8c73bc9fb046");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/0x0/dd739764-bcaa-4263-9488-8c73bc9fb046');
 }
 
 .bg-\[url\(\'\'\)\] {
-  background-image: url("");
+  background-image: url('');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/92cbede0-6d73-4753-a640-7d2acbcd9f3f\/bvlatuR\/std\/1927x4096\/Homepage-Model-3-LHD-Mobile\?quality\=auto-medium\&amp\;format\=auto\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/92cbede0-6d73-4753-a640-7d2acbcd9f3f/bvlatuR/std/1927x4096/Homepage-Model-3-LHD-Mobile?quality=auto-medium&amp;format=auto");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/92cbede0-6d73-4753-a640-7d2acbcd9f3f/bvlatuR/std/1927x4096/Homepage-Model-3-LHD-Mobile?quality=auto-medium&amp;format=auto');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/92cbede0-6d73-4753-a640-7d2acbcd9f3f\/bvlatuR\/std\/1927x4096\/Homepage-Model-3-LHD-Mobile\?\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/92cbede0-6d73-4753-a640-7d2acbcd9f3f/bvlatuR/std/1927x4096/Homepage-Model-3-LHD-Mobile?");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/92cbede0-6d73-4753-a640-7d2acbcd9f3f/bvlatuR/std/1927x4096/Homepage-Model-3-LHD-Mobile?');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/92cbede0-6d73-4753-a640-7d2acbcd9f3f\/bvlatuR\/std\/1927x4096\/Homepage-Model-3-LHD-Mobile\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/92cbede0-6d73-4753-a640-7d2acbcd9f3f/bvlatuR/std/1927x4096/Homepage-Model-3-LHD-Mobile");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/92cbede0-6d73-4753-a640-7d2acbcd9f3f/bvlatuR/std/1927x4096/Homepage-Model-3-LHD-Mobile');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/c485b2b4-d334-4a8f-87e3-5755103a367c\/bvlatuR\/std\/800x2100\/Homepage-ModelY-LHD-Mobile\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c485b2b4-d334-4a8f-87e3-5755103a367c/bvlatuR/std/800x2100/Homepage-ModelY-LHD-Mobile");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/c485b2b4-d334-4a8f-87e3-5755103a367c/bvlatuR/std/800x2100/Homepage-ModelY-LHD-Mobile');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/bcb3f60f-170c-40d8-b4ff-b09628723cfc\/bvlatuR\/std\/750x1624\/Homepage-Model-S-LHD-Mobile\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/bcb3f60f-170c-40d8-b4ff-b09628723cfc/bvlatuR/std/750x1624/Homepage-Model-S-LHD-Mobile");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/bcb3f60f-170c-40d8-b4ff-b09628723cfc/bvlatuR/std/750x1624/Homepage-Model-S-LHD-Mobile');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/05a76324-947e-453b-a628-8b2d759756fa\/bvlatuR\/std\/2880x1800\/Homepage-Model-X-Desktop-LHD\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/05a76324-947e-453b-a628-8b2d759756fa/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/05a76324-947e-453b-a628-8b2d759756fa/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/09f6a9e7-bdef-4d92-8c1e-2bcc3ddb7fee\/bvlatuR\/std\/800x2100\/Homepage-Model-X-LHD-Mobile\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/09f6a9e7-bdef-4d92-8c1e-2bcc3ddb7fee/bvlatuR/std/800x2100/Homepage-Model-X-LHD-Mobile");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/09f6a9e7-bdef-4d92-8c1e-2bcc3ddb7fee/bvlatuR/std/800x2100/Homepage-Model-X-LHD-Mobile');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/da02ce3e-3ede-4fa4-8fcb-e8d5d6681cfb\/bvlatuR\/std\/600x1576\/Homepage-SolarPanels-Mobile\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/da02ce3e-3ede-4fa4-8fcb-e8d5d6681cfb/bvlatuR/std/600x1576/Homepage-SolarPanels-Mobile");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/da02ce3e-3ede-4fa4-8fcb-e8d5d6681cfb/bvlatuR/std/600x1576/Homepage-SolarPanels-Mobile');
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/3f6f20d2-ad05-41b7-b181-9fb6f01af119\/bvlatuR\/std\/800x2100\/Homepage-SolarRoof-Mobile\'\)\] {
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/3f6f20d2-ad05-41b7-b181-9fb6f01af119/bvlatuR/std/800x2100/Homepage-SolarRoof-Mobile");
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/3f6f20d2-ad05-41b7-b181-9fb6f01af119/bvlatuR/std/800x2100/Homepage-SolarRoof-Mobile');
 }
 
 .bg-cover {
@@ -813,7 +804,7 @@ video {
 
 .object-cover {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .px-3 {
@@ -932,31 +923,31 @@ video {
   }
 
   .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/03e533bf-8b1d-463f-9813-9a597aafb280\/bvlatuR\/std\/4096x2560\/M3-Homepage-Desktop-LHD\'\)\] {
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD");
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
   }
 
   .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0\/bvlatuR\/std\/2880x2400\/Desktop-ModelY\?quality\=70\'\)\] {
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70");
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70');
   }
 
   .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/17ecbd59-0e37-4add-8aca-f905d12c02e4\/bvlatuR\/std\/2880x1800\/Homepage-Model-X-Desktop-LHD\'\)\] {
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/17ecbd59-0e37-4add-8aca-f905d12c02e4/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD");
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/17ecbd59-0e37-4add-8aca-f905d12c02e4/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD');
   }
 
   .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/e57227be-7840-4ea7-b46a-11ab25e76039\/bvlatuR\/std\/2880x1800\/Homepage-Model-S-Desktop-LHD\'\)\] {
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/e57227be-7840-4ea7-b46a-11ab25e76039/bvlatuR/std/2880x1800/Homepage-Model-S-Desktop-LHD");
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/e57227be-7840-4ea7-b46a-11ab25e76039/bvlatuR/std/2880x1800/Homepage-Model-S-Desktop-LHD');
   }
 
   .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/05a76324-947e-453b-a628-8b2d759756fa\/bvlatuR\/std\/2880x1800\/Homepage-Model-X-Desktop-LHD\'\)\] {
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/05a76324-947e-453b-a628-8b2d759756fa/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD");
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/05a76324-947e-453b-a628-8b2d759756fa/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD');
   }
 
   .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/16b04537-a4be-4bf9-8637-86862a858da8\/bvlatuR\/std\/2880x1800\/_25-HP-SolarPanels-D\'\)\] {
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D");
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D');
   }
 
   .sm\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/4a41ec0e-7316-46a8-8ce9-e2f195ba644d\/bvlatuR\/std\/2880x1800\/Homepage-SolarRoof-Desktop-Global\'\)\] {
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/4a41ec0e-7316-46a8-8ce9-e2f195ba644d/bvlatuR/std/2880x1800/Homepage-SolarRoof-Desktop-Global");
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/4a41ec0e-7316-46a8-8ce9-e2f195ba644d/bvlatuR/std/2880x1800/Homepage-SolarRoof-Desktop-Global');
   }
 }
 
@@ -984,7 +975,7 @@ video {
   }
 
   .md\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/03e533bf-8b1d-463f-9813-9a597aafb280\/bvlatuR\/std\/4096x2560\/M3-Homepage-Desktop-LHD\'\)\] {
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD");
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
   }
 
   .md\:bg-cover {
@@ -1006,7 +997,7 @@ video {
   }
 
   .lg\:bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/03e533bf-8b1d-463f-9813-9a597aafb280\/bvlatuR\/std\/4096x2560\/M3-Homepage-Desktop-LHD\'\)\] {
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD");
+    background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD');
   }
 
   .lg\:bg-cover {
